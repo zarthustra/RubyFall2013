@@ -15,12 +15,21 @@ describe String do
 		it "should be able to count the characters" do
 			@my_string.should have(@my_string.size).characters
 		end
+<<<<<<< HEAD
 		it "should be able to split on the . charater" do
+=======
+		it "should be able to split on the . character" do
+>>>>>>> master
 			result = @my_string.split('.')
 			result.should have(2).items	
 		end
 		it "should be able to give the encoding of the string" do
+<<<<<<< HEAD
 			@my_string.encoding.should eq (Encoding.find("UTF-8"))
+=======
+			@my_string.encoding.should eq(Encoding.find("UTF-8"))
+			#'helpful hint: should eq (Encoding.find("UTF-8"))'
+>>>>>>> master
 		end
 	end
 end
